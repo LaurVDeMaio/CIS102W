@@ -1852,6 +1852,7 @@
 				position: relative;
 				width: 35%;
 				margin: 0;
+				background: #1C3B27;
 			}
 
 			.main.style2.left {
@@ -1892,11 +1893,11 @@
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: black;
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: black;
 			}
 
 		.main.dark {
@@ -2009,7 +2010,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #39454b;
+		background: #1C3B27;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2104,7 +2105,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro2.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2114,8 +2115,8 @@
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
+		background: url("https://static.wixstatic.com/media/fdebb2_8482108d68d244f98bab48409de420be~mv2.jpg/v1/fill/w_980,h_1280,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fdebb2_8482108d68d244f98bab48409de420be~mv2.jpg"), url("../../images/one.jpg");
+		background-size: 800px 1080px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2123,11 +2124,18 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
+		background: url("https://static.wixstatic.com/media/fdebb2_20e33b28e5664897845eb6e570a7af4b~mv2.jpg/v1/fill/w_367,h_576,al_c,lg_1,q_80,enc_auto/fdebb2_20e33b28e5664897845eb6e570a7af4b~mv2.jpg"), url("../../images/two.jpg");
+		background-size: 700px 900px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+#three {
+	background: url("https://static.wixstatic.com/media/fdebb2_cb168f9f5352494b98ef3a86768a3e05~mv2.jpg/v1/fill/w_427,h_436,al_c,lg_1,q_80,enc_auto/fdebb2_cb168f9f5352494b98ef3a86768a3e05~mv2.jpg"), url("../../images/one.jpg");
+	background-size: 800px 800px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
 
 /* Contact */
 
