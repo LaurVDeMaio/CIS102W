@@ -17,7 +17,7 @@
 		font: inherit;
 		font-weight: 500;
 		vertical-align: baseline;
-		color: #88bc82;
+		color: #88b828;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -640,10 +640,11 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: #88b828;
 		border: 0;
 		border-radius: 3.5em;
-		color: #ffffff;
+		color: black;
+		font-weight: bolder;
 		cursor: pointer;
 		display: inline-block;
 		height: 3.5em;
