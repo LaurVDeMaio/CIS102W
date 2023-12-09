@@ -28,6 +28,17 @@
 		color: #88b828;
 	}
 
+	h7{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		font-weight: bolder;
+		vertical-align: baseline;
+		color: #E35105;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -648,21 +659,22 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #88b828;
-		border: 0;
+		background-color: #EC8E60;
+		border: 1em;
 		border-radius: 3.5em;
-		color: black;
-		font-weight: bolder;
+		color: #E35105;
+		font-weight: bold;
 		cursor: pointer;
 		display: inline-block;
-		height: 3.5em;
-		line-height: 3.5em;
-		outline: 0;
+		height: 2.75em;
+		line-height: 2.75em;
+		outline: 4em;
 		padding: 0 2em 0 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
 	}
+
 
 		input[type="button"].down,
 		input[type="submit"].down,
@@ -688,7 +700,7 @@
 				bottom: 0;
 				border-bottom: 0;
 				border-radius: 3em 3em 0 0;
-				height: 4.5em;
+				height: 5em;
 				margin-left: -2.5em;
 			}
 
@@ -834,7 +846,7 @@
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 4px #E35105;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -848,7 +860,7 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #9ac8e9;
+			border-color: #E35105;
 		}
 
 	input[type="text"],
@@ -870,23 +882,23 @@
 	}
 
 	::-webkit-input-placeholder {
-		opacity: 0.375;
+		opacity: 0.5;
 	}
 
 	:-moz-placeholder {
-		opacity: 0.375;
+		opacity: 0.5;
 	}
 
 	::-moz-placeholder {
-		opacity: 0.375;
+		opacity: 0.5;
 	}
 
 	:-ms-input-placeholder {
-		opacity: 0.375;
+		opacity: 0.5;
 	}
 
 	.formerize-placeholder {
-		opacity: 0.375;
+		opacity: 0.5;
 	}
 
 /* Icon */
@@ -1897,7 +1909,7 @@
 			}
 
 			.main.style3.secondary {
-				background: black;
+				background: #1C3B27;
 			}
 
 		.main.dark {
@@ -2106,6 +2118,14 @@
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/intro2.png");
+		background-size: 800px 1080px, cover;
+		background-attachment: fixed, fixed;
+		background-position: center;
+		background-repeat: repeat, no-repeat;
+	}
+
+ 	#custom {
+		background: url("images/overlay.png"), url("../../images/atp.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2120,6 +2140,13 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+	#onevar {
+	background: url("images/overlay.png"), url("../../images/atp.png");
+	background-size: 800px 1080px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
 
 /* Two */
 
