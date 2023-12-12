@@ -1803,7 +1803,7 @@
 			}
 
 		.main.fullscreen {
-			min-height: 100%;
+			min-height: 75%;
 		}
 
 		.main.style1 {
@@ -2137,7 +2137,7 @@
 /* One */
 
 	#one {
-		background: url("https://static.wixstatic.com/media/fdebb2_8482108d68d244f98bab48409de420be~mv2.jpg/v1/fill/w_980,h_1280,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fdebb2_8482108d68d244f98bab48409de420be~mv2.jpg"), url("../../images/one.jpg");
+		background: url("https://static.wixstatic.com/media/fdebb2_8482108d68d244f98bab48409de420be~mv2.jpg/v1/fill/w_980,h_1280,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fdebb2_8482108d68d244f98bab48409de420be~mv2.jpg"), url("../../images/atp.png");
 		background-size: 800px 1080px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2162,6 +2162,13 @@
 #three {
 	background: url("https://static.wixstatic.com/media/fdebb2_cb168f9f5352494b98ef3a86768a3e05~mv2.jpg/v1/fill/w_427,h_436,al_c,lg_1,q_80,enc_auto/fdebb2_cb168f9f5352494b98ef3a86768a3e05~mv2.jpg"), url("../../images/one.jpg");
 	background-size: 800px 800px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#four {
+	background: url("../../images/Screenshot 2023-12-08 at 9.25.49 PM.png");
+	background-size: 1200px 800px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
 }
