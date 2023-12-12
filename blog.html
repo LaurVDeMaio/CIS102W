@@ -8,13 +8,135 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+    <style>body{
+        margin-top:20px;
+        background: #1C3B27;
+    }
+    /* Timeline */
+    .page-timeline {
+        margin: 30px auto 0 auto;
+        position: relative;
+        max-width: 1000px;
+    }
+
+    .page-timeline:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 303px;
+        right: auto;
+        height: 100%;
+        width: 5px;
+        background: #EC8E60;
+        z-index: 0;
+
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+    }
+
+    .page-timeline:after {
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 40px;
+        background: #3498db;
+        background: -webkit-linear-gradient(top, #4782d3, rgba(52, 152, 219, 0));
+        background: linear-gradient(to bottom, #4782d3, rgba(52, 152, 219, 0));
+        top: 100%;
+        left: 303px;
+
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+    }
+
+    .vtimeline-content {
+        margin-left: 350px;
+        background: white;
+        padding: 35px 20px;
+        border-radius: 3px;
+        text-align: left;
+
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+    }
+
+    .vtimeline-content h3 {
+        font-size: 1.5em;
+        font-weight: 600;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .vtimeline-content p {
+        font-size: 1em;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .vtimeline-point {
+        position: relative;
+        display: block;
+        vertical-align: top;
+        margin-bottom: 30px;
+    }
+
+    .vtimeline-icon {
+        position: relative;
+        color: #E35105;
+        width: 50px;
+        height: 50px;
+        background: #E35105;
+        border-radius: 50%;
+        float: left;
+        text-align: center;
+        line-height: 50px;
+        z-index: 99;
+        margin-left: 280px;
+    }
+
+    .vtimeline-icon i {
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+
+    .vtimeline-date {
+        width: 260px;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        font-weight: 400;
+        color: #EC8E60;
+    }
+    .post-meta {
+        padding-top: 15px;
+        margin-bottom: 20px;
+    }
+    .post-meta li:not(:last-child) {
+        margin-right: 10px;
+    }
+    h3 {
+        color: #E35105;
+        font-weight: 700;
+        font-variant-ligatures: common-ligatures;
+        margin-top: 0;
+        letter-spacing: -0.2px;
+        line-height: 1.3;
+    }
+    .mb20 {
+        margin-bottom: 10px !important;
+        height: 350px;
+        width: 400px;
+    }
+    </style>
 </head>
 <body>
 <!-- Header -->
 <header id="header">
-    <div class="images"> </div>
-    <h1> <Header> </Header></h1>
-    <img src="images/thumbs/Logo.png">
+    <img src="images/Art_in_the_Park_Final-removebg-preview%20(1).png";>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -22,17 +144,93 @@
             <li><a href="blog.html"><b>Blog</b></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><button><a href="donate.html">Donate</a></button></li>
+            <li><button><a href="donate.html"><b>Donate</b></a></button></li>
         </ul>
     </nav>
 </header>
+
+<div class="container mb80">
+    <div class="page-timeline">
+        <div class="vtimeline-point">
+            <div class="vtimeline-icon">
+                <i class="fa fa-image"></i>
+            </div>
+            <div class="vtimeline-block">
+                <span class="vtimeline-date">18 Sept</span><div class="vtimeline-content">
+                <a href="#"><img src="images/Screenshot%202023-12-08%20at%209.24.39%E2%80%AFPM.png" alt="" class="img-fluid mb20"></a>
+                <a href="#"><h3>Unlocking the Magic of Shapes: How Geometric Art is Transformational for Kids</h3></a>
+                <ul class="post-meta list-inline">
+                    <li class="list-inline-item">
+                        <a href="#">This blog is brought to you by Art in the Park in collaboration with One inch Punch Productions.</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fa fa-calendar-o"></i> <a href="#">18 Sept</a>
+                    </li>
+                </ul>
+                <p>
+                    We all are born artists. You may have observed how toddlers respond to music. They dance to it if they like it. Similarly, give a pencil and a sketch pad to a primary school kid, he is sure to come up with something!
+                    Every child has inner artistic potential and should be allowed to explore it. Art in the Park aims to provide such opportunities to children from underserved communities in New York by arranging Geometric Art activities. And we at One inch Punch Productions, wholeheartedly support its mission. We have collaborated to bring you this fantastic piece of writing. </p><br>
+                <a href="#" class="btn btn-outline-secondary btn-sm">Read More</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="vtimeline-point">
+            <div class="vtimeline-icon">
+                <i class="fa fa-image"></i>
+            </div>
+            <div class="vtimeline-block">
+                <span class="vtimeline-date">15 June</span><div class="vtimeline-content">
+                <a href="#"><img src="images/Screenshot%202023-12-08%20at%209.24.50%E2%80%AFPM.png" alt="" class="img-fluid mb20"></a>
+
+                <a href="#"><h3>Celebrating the 50th Anniversary of Hip Hop 2023</h3></a>
+                <ul class="post-meta list-inline">
+                    <li class="list-inline-item">
+                        <i class="fa fa-calendar-o"></i> <a href="#">15 June</a>
+                    </li>
+                </ul>
+                <p>
+                    We all are born artists. You may have observed how toddlers respond to music. They dance to it if they like it. Similarly, give a pencil and a sketch pad to a primary school kid, he is sure to come up with something!
+                    Every child has inner artistic potential and should be allowed to explore it. Art in the Park aims to provide such opportunities to children from underserved communities in New York by arranging Geometric Art activities. And we at One inch Punch Productions, wholeheartedly support its mission. We have collaborated to bring you this fantastic piece of writing.</p><br>
+                <a href="#" class="btn btn-outline-secondary btn-sm">Read More</a>
+            </div>
+            </div>
+        </div>
+        <div class="vtimeline-point">
+            <div class="vtimeline-icon">
+                <i class="fa fa-image"></i>
+            </div>
+            <div class="vtimeline-block">
+                <span class="vtimeline-date">24 May</span><div class="vtimeline-content">
+                <a href="#"><img src="images/Screenshot%202023-12-08%20at%209.25.49%E2%80%AFPM.png" alt="" class="img-fluid mb20"></a>
+                <a href="#"><h3>Composting 101 in Harlem NYC</h3></a>
+                <ul class="post-meta list-inline">
+                    <li class="list-inline-item">
+                        <i class="fa fa-calendar-o"></i> <a href="#">24 May</a>
+                    </li>
+                </ul>
+                <p>
+                    Welcome to Art-in-the-Park’s introductory guide to composting!
+
+                    Want to know how to start composting at home?
+
+                    Want to know more about composting in NYC?
+
+                    Looking for free compost near you?
+
+                    Look no further! We’ll give you the low-down on easy, basic composting in NYC. </p><br>
+                <a href="#" class="btn btn-outline-secondary btn-sm">Read More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Work -->
 <section id="work" class="main style3 primary">
     <div class="content">
         <header>
-            <h2>Blog Posts</h2>
-            <p>Don't forget to subscribe!</p>
+            <h2>Don't forget to subscribe!</h2>
         </header>
 
         <!-- Gallery  -->

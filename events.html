@@ -8,6 +8,163 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <style>
+        /* Styling the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Styling section, giving background
+            image and dimensions */
+        section {
+            width: 100%;
+            height: 100vh;
+            background: url("images/Screenshot 2023-12-08 at 9.26.02 PM.png");
+            background-size: cover;
+        }
+        /* Styling the left floating section */
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+        /* Styling the background of
+            left floating section */
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.85);
+            padding: 50px;
+            transition: .5s;
+        }
+        /* Styling the hover effect
+            of left floating section */
+        section .leftBox .content:hover {
+            background: #C32B9A;
+        }
+        /* Styling the header of left
+            floating section */
+        section .leftBox .content h1 {
+            margin: 10px;
+            padding: 25px;
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        /* Styling the paragraph of
+            left floating section */
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            float: right;
+            box-sizing: border-box;
+        }
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-47.5%);
+            margin: 0;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #C32B9A;
+        }
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 5px 0 0;
+            padding: 0;
+            font-size: 13px;
+        }
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+    </style>
 </head>
 <body>
 <!-- Header -->
@@ -17,7 +174,7 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
+            <li><a href="events.html"><b>Events</b></a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -26,38 +183,77 @@
     </nav>
 </header>
 
-    <section>
-    <h2>Upcoming Events</h2>
-    <ul>
-        <li><strong> Saturday Science</strong></li>
-        <li><strong> Finding the Fun in the Food Shop</strong></li>
-    </ul>
+<section>
+    <div class="leftBox">
+        <div class="content">
+            <h1>
+                Sign up for Youth Art Events!
+            </h1>
+            <p>
+                Art in the Park's non-profit events are always free and open to the public.
+            </p>
+               <p>Our main focus is youth aged 2-24.</p>
+               <p>Email us at info@artinthepark128.org for more information & check out our events for more fun family programming!
+               </p>
+        </div>
+    </div>
+    <div class="events">
+        <ul>
+            <li>
+                <div class="time">
+                    <h2>
+                        16 <br><span>Dec</span>
+                    </h2>
+                </div>
+                <div class="details">
+                    <h3>
+                        We are an official vendor for the Harlem Night Market
+                    </h3>
+                    <p>
+                        4:00 PM – 8:00 PM EST
+                        New York, 1590 Park Ave, New York, NY 10029
+                    </p>
+                </div>
+                <div style="clear: both;"></div>
+            </li>
+            <li>
+                <div class="time">
+                    <h2>
+                        1 <br><span>Jan</span>
+                    </h2>
+                </div>
+                <div class="details">
+                    <h3>
+                        Storefront Academy Enrollment
+                    </h3>
+                    <p>
+                        New York, 445 E 115th St, New York, NY 10029</p>
+                    <p>Storefront Academy Harlem Charter School! NOW ENROLLING YOUTH FROM K-5TH GRADE!!!!!!!
+                    </p>
+                </div>
+                <div style="clear:both;"></div>
+            </li>
+            <li>
+                <div class="time">
+                    <h2>
+                        2 <br><span>Feb</span>
+                    </h2>
+                </div>
+                <div class="details">
+                    <h3>
+                        Finding the Fun in Food Workshop - Charcuterie Boards
+                    </h3>
+                    <p>
+                        Alice Kornegay Triangle, Lexington Ave. &, E 128th St, New York, NY 10035</p>
+                    <p>Learn how to craft the perfect board and eat what you make!
+                    </p>
+                </div>
+                <div style="clear:both;"></div>
+            </li>
+        </ul>
+    </div>
 </section>
 
-    <Section>
-        <h3>Sign Up for Youth Art Events!</h3>
-        <p> Art in the Park's non-profit events are always free and open to the public. Our main focus is youth aged 2-24. Email us at info@artinthepark128.org for more information and check out our events for our fun family programming!
-        </p>
-    </Section>
-
-    <Section>
-        <p> 
-            8 west 125th street 
-            New York, NY 20027
-            (917)-456-4056
-            (470)593-9887
-        </p>
-        <style>
-            button {
-                padding: 10 px 20px; 
-                font-size: 16px; 
-                border: 2px solid; 
-                bacground-color: #88B828; 
-                color: #000; 
-                cursur: pointer; 
-                transition: background-color 0.3s ease; 
-            }
-        </style>
 
     <footer id="footer">
 
@@ -70,9 +266,6 @@
 
         </ul>
 
-        <section>
-
-        </section>
 
         <!-- Menu -->
         <ul class="menu">
